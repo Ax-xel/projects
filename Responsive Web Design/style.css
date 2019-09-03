@@ -1,0 +1,94 @@
+.full{
+  width:100%;
+  height:100%;
+  }
+.left{
+  width:20%;
+  height:50%;
+  float:left;
+  }
+    
+.right{
+  width:50%;
+  height:50%;
+  float:left;
+  }
+    
+.name{
+  font-style: italic;
+  }
+
+.raccoon-img {
+	float:left;
+	max-width: 100%;
+	height: auto;
+	width: 472px;
+}
+
+img {
+	float:left;
+	max-width: 100%;
+	height: auto;
+	width: 256px;
+}
+
+.container {
+	display: flex; 
+}
+
+.col {
+	flex-wrap: wrap;
+}
+
+.col.all {
+	margin-top: 5px;
+	  border: 2px solid black;
+	  background-color:#d2d5d926;
+}
+.col.all.two {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.row {
+	flex-wrap: wrap;
+	
+}
+.btn.btn-info {
+	margin-top: 2px;
+
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.hobby {
+	display: flex;
+	flex-direction: column;
+}
+
+.roll {
+	
+}
+
+@media (max-width: 767px) {
+	img {
+		height: 256px;
+	}
+}
+		
+@media (max-width: 508px) {
+	.firsst-paragraph {
+	}
+}	
