@@ -1,0 +1,30 @@
+body {
+    font-family: 'Handlee', cursive;
+}
+
+.title {
+    text-align: center;
+}
+
+.first_div {
+    background-color:#ececec;
+    border-radius: 15px;
+
+}
+#second_div {
+  visibility: hidden;
+  background-color:#ececec;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.inputName {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#result {
+ margin: 0px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+}

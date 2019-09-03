@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My little game</title>
+		<meta charset="utf-8"/>
+    <link href="stylesheet.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+	</head>
+	<body>
+
+	<div class="first_div">
+	    <h1 class="title">Adventure game</h1>
+	    <p class="first">This is a simple adventure game where you will choose the outcome, it also lets me learn bit by bit on how to program</p>
+	    <form class="inputName">
+	      <p>What will your adventurer name be?</p>
+	        <input id="heroName" type="text" maxlength="25"></input>
+	        <br>
+	        <button id="Btn" type=button>Submit</button>
+				</form>
+
+			<p id='result'></p></div>
+
+	</div>
+	<div id="second_div">
+		<p>Hidden until name is given</p>
+	</div>
+	<script src="myscript.js"></script>
+</body>
+</html>
