@@ -10,8 +10,8 @@
 //   document.getElementById("heroName").value ="";
 // }
 
-var result = document.getElementById("result");
-var sDiv = document.getElementsByClassName("second_div");
+var result = document.getElementById('result');
+var sDiv = document.getElementById("second_div");
 var hName = document.getElementById("heroName").value;
 
 document.getElementById("Btn").addEventListener("click", clickButton);
@@ -22,8 +22,11 @@ function clickButton() {
   result.innerHTML ="Your name is " + hName + ".";
   if (hName.length > 0) {
     document.getElementById("second_div").style.visibility='visible';
+    sDiv.innerHTML = "So " + hName + ", are you ready for your adventure?";
   } else {
     document.getElementById("second_div").style.visibility='hidden';
   };
   console.log(hName);
 }
+
+
